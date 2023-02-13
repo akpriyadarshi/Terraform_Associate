@@ -86,8 +86,3 @@ output "EC2_IP" {
   value = aws_instance.my_server.public_ip
 }
 
-/*
-terraform plan -out=my_saved_plan.plan
-terraform apply my_saved_plan
-
-*/
